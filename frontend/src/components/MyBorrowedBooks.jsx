@@ -72,8 +72,8 @@ const MyBorrowedBooks = () => {
         <header className="flex flex-col gap-3 sm:flex-row md:items-center mt-4">
           <button
             className={`relative rounded sm:rounded-tr-none sm:rounded-br-none sm:rounded-tl-lg sm:rounded-bl-lg text-center border-2 font-semibold py-2 w-full sm:w-72 ${filter === "returned"
-              ? "bg-cyan-800 text-white border-cyan-800"
-              : "bg-gray-200 text-cyan-800 border-gray-200 hover:bg-gray-300"
+              ? "bg-[#18181B] text-white border-[#18181B]"
+              : "bg-gray-200 text-[#18181B] border-gray-200 hover:bg-gray-300"
               }`}
             onClick={() => {
               setFilter("returned");
@@ -85,8 +85,8 @@ const MyBorrowedBooks = () => {
           </button>
           <button
             className={`relative rounded sm:rounded-tl-none sm:rounded-bl-none sm:rounded-tr-lg sm:rounded-br-lg text-center border-2 font-semibold py-2 w-full sm:w-72 ${filter === "non-returned"
-              ? "bg-cyan-800 text-white border-cyan-800"
-              : "bg-gray-200 text-cyan-800 border-gray-200 hover:bg-gray-300"
+              ? "bg-[#18181B] text-white border-[#18181B]"
+              : "bg-gray-200 text-[#18181B] border-gray-200 hover:bg-gray-300"
               }`}
             onClick={() => {
               setFilter("non-returned");

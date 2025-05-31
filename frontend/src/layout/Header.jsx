@@ -54,7 +54,7 @@ const Header = () => {
             <span>{currentTime}</span>
             <span>{currentDate}</span>
           </div>
-          <span className="bg-cyan-700 h-14 w-[2px]" />
+          <span className="bg-[#373838] h-14 w-[1px]" />
           <img src={settingIcon} alt="settingIcon" className="w-8 h-8" onClick={() => dispatch(toggleSettingPopup())} />
         </div>
       </header>

@@ -9,8 +9,8 @@ const createMainAdmin = async () => {
       const hashedPassword = await bcrypt.hash("Admin@123", 10);
 
       await User.create({
-        name: "Karuna Sheel",
-        email: "karuna@nielit.gov.in",
+        name: "Mayank Kumar Das",
+        email: "mayankkumardas12@gmail.com",
         password: hashedPassword,
         role: "main-Admin",
         accountVerified: true,

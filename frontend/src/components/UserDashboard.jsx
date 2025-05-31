@@ -94,8 +94,8 @@ const UserDashboard = () => {
 
           {/* Quote Section */}
           <div className="bg-white p-7 text-lg sm:text-xl xl:text-3xl 2xl:text-4xl min-h-52 font-semibold relative flex-[3] flex justify-center items-center rounded-2xl">
-            <h4 className="text-xl sm:text-2xl font-semibold text-center italic">“Reading is to the mind what exercise is to the body.”</h4>
-            <p className="text-sm text-gray-500 mt-4 self-end">~ NIELIT Team</p>
+            <h4 className="absolute text-xl sm:text-2xl font-bold text-center italic">“Reading is to the mind what exercise is to the body.”</h4>
+            <p className="text-sm text-gray-500 mt-4 self-end w-40">~ LibraCore Team</p>
           </div>
 
         </div>
@@ -113,8 +113,8 @@ const UserDashboard = () => {
             <img src={logo} alt="logo" className="h-16" />
             <div className="border-l h-full border-gray-300"></div>
             <div className="flex flex-col gap-3 text-sm">
-              <LegendItem color="#1E3A8A" label="Total Borrowed Books" />
-              <LegendItem color="#10B981" label="Total Returned Books" />
+              <LegendItem color="#373838" label="Total Borrowed Books" />
+              <LegendItem color="#0F260F" label="Total Returned Books" />
             </div>
           </div>
         </div>

@@ -50,8 +50,7 @@ const SideBar = ({ isSideBarOpen, setIsSideBarOpen, setSelectedComponents }) => 
           } z-10 transition-all duration-700 md:relative md:left-0 flex w-64 bg-zinc-900 text-white flex-col h-full`}
         style={{ position: "fixed" }}>
 
-        <div className="px-6 py-4 my-8">
-          <img src={Hading} alt="Hading" className="h-38 w-78 -ml-12 mb-0"/>
+        <div className="px-6 py-8 my-8">
           <img src={logo_with_title} alt="logo" className="h-38 w-68 -mt-8" />
         </div>
 
@@ -110,7 +109,7 @@ const SideBar = ({ isSideBarOpen, setIsSideBarOpen, setSelectedComponents }) => 
             <span>Update Credentials</span>
           </button>
 
-          <button  onClick={() => dispatch(toggleUpdateProfilePopup())} className="w-full py-2 font-medium bg-transparent rounded-md hover:cursor-pointer flex items-center space-x-2 ">
+          <button onClick={() => dispatch(toggleUpdateProfilePopup())} className="w-full py-2 font-medium bg-transparent rounded-md hover:cursor-pointer flex items-center space-x-2 ">
             <img src={profile} alt="icon" />
             <span>Update Profile</span>
           </button>
@@ -137,7 +136,7 @@ const SideBar = ({ isSideBarOpen, setIsSideBarOpen, setSelectedComponents }) => 
 
       {settingPopup && <SettingPopup />}
 
-      {updateProfilePopup && <UpdateProfilePopup/>}
+      {updateProfilePopup && <UpdateProfilePopup />}
     </>
 
 
